@@ -1,0 +1,47 @@
+@use "../abstracts/colors.scss" as c;
+Nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: 2% 5%;
+}
+
+Nav .Logo {
+  width: 7%;
+}
+
+Nav ul {
+  /*  display: flex;
+        align-items: center; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 15%;
+  width: 30vw;
+}
+
+Nav ul li {
+  padding-right: 7%;
+  padding-left: 7%;
+}
+
+Nav ul li .link {
+  color: magenta;
+}
+
+Nav .Dots {
+  width: 2%;
+}
+/*# sourceMappingURL=Navbar.css.map */

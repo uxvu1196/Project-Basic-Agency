@@ -1,0 +1,33 @@
+@use "../abstracts/colors.scss" as c;
+
+Nav {
+    // background-color: c.$bgLight;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 2% 5%;
+
+    .Logo {
+        width: 7%;
+    }
+    ul {
+        /*  display: flex;
+        align-items: center; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 15%;
+        width: 30vw;
+        li {
+            padding-right: 7%;
+            padding-left: 7%;
+
+            .link {
+                color: magenta;
+            }
+        }
+    }
+    .Dots {
+        width: 2%;
+    }
+}
