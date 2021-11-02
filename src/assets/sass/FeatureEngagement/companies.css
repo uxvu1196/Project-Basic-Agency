@@ -1,0 +1,87 @@
+@font-face {
+  font-family: scto-regular;
+  src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+  font-family: scto-medium;
+  src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+  font-family: scto-bold;
+  src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
+/* 
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // width: 200%;
+    // height: 300px;
+    // overflow-y: auto;
+    // overflow-x: hidden;
+    padding: 0;
+
+    .index {
+        padding-right: 5%;
+    }
+
+    img {
+        width: 70%;
+        margin-bottom: 30%;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+        border-bottom: 1px solid black;
+    }
+
+    p {
+        font-family: $sb;
+    }
+} */
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+.companies .index {
+  margin: 0 80px 0 0;
+}
+
+.companies img {
+  width: 50%;
+  margin-bottom: 105px;
+}
+
+.companies h5 {
+  font-family: scto-bold;
+  font-size: 1rem;
+}
+
+.companies .line {
+  content: "";
+  display: block;
+  width: 300px;
+  border-bottom: 1px solid black;
+  margin: 20px 0px;
+}
+
+.companies .com_description {
+  font-family: scto-bold;
+  width: 350px;
+  margin-bottom: 10%;
+}
+/*# sourceMappingURL=companies.css.map */

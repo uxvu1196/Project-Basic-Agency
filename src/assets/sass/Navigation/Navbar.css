@@ -1,4 +1,18 @@
-@use "../abstracts/colors.scss" as c;
+@font-face {
+  font-family: scto-regular;
+  src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+  font-family: scto-medium;
+  src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+  font-family: scto-bold;
+  src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
 Nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,11 +23,11 @@ Nav {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  margin: 2% 5%;
+  padding-bottom: 8%;
 }
 
 Nav .Logo {
-  width: 7%;
+  width: 8%;
 }
 
 Nav ul {
@@ -38,10 +52,11 @@ Nav ul li {
 }
 
 Nav ul li .link {
-  color: magenta;
+  color: #252422;
+  font-family: scto-medium;
 }
 
 Nav .Dots {
-  width: 2%;
+  width: 3%;
 }
 /*# sourceMappingURL=Navbar.css.map */

@@ -1,14 +1,37 @@
-@use "../abstracts/colors.scss" as c;
+// @use "../abstracts/colors.scss" as c;
+
+@font-face {
+    font-family: scto-regular;
+    src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+    font-family: scto-medium;
+    src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+    font-family: scto-bold;
+    src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
+$sr: scto-regular;
+$sm: scto-medium;
+$sb: scto-bold;
+
+$bgLight: #f4f4f4;
+$bgDark: #252422;
+$bgRosa: #f9cdcd;
 
 Nav {
-    // background-color: c.$bgLight;
+    // background-color: $bgLight;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 2% 5%;
+    padding-bottom: 8%;
 
     .Logo {
-        width: 7%;
+        width: 8%;
     }
     ul {
         /*  display: flex;
@@ -23,11 +46,12 @@ Nav {
             padding-left: 7%;
 
             .link {
-                color: magenta;
+                color: $bgDark;
+                font-family: $sm;
             }
         }
     }
     .Dots {
-        width: 2%;
+        width: 3%;
     }
 }

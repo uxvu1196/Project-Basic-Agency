@@ -3,35 +3,56 @@ import { Features } from '../components/FeaturedEngagement'
 import { FeaturedNews } from '../components/FeaturedNews'
 import { Footer } from '../components/Footer'
 import Navbar from '../components/Navbar'
+import "../assets/sass/Home/Home.scss"
+import "../App.scss"
+
 
 
 export const Home = () => {
     return (
         <div>
-            <Navbar />
-            <section>
-                <h2>WHAT’S NEXT <br /> STARTS</h2>
-                <h2>●HERE</h2>
-                <video src="/img/video/Hero.mp4" width="500px" controls autoPlay="autoplay"></video>
-                <p>STRATEGY, DESIGN, TECHNOLOGY</p>
+            <div className="bgColorLight">
+                <Navbar />
 
-                <div>
+                <section className="firstArea">
+                    <h2 className="whatsNext">WHAT’S NEXT <br /> STARTS</h2>
+                    <h2 className="here">●HERE</h2>
+                    <video src="/img/video/Hero.mp4" controls autoPlay="autoplay"></video>
+                    <p >STRATEGY, DESIGN, TECHNOLOGY</p>
+                </section>
+
+
+                <div className="secondArea">
                     <p>BASIC® is a branding and digital design agency building products, services, and ecommerce experiences that turn cultural values into company value.</p>
                     <img src="/img/svg/branding-img.svg" alt="" className="LogoBasic" />
                 </div>
                 <button>SEE THE WORK</button>
 
-                <section>
+                <section className="thirdArea">
                     <h3>FEATURED <br /> ENGAGEMENTS</h3>
                     <Features />
                 </section>
+            </div>
+            {/* ======================= DARK AREA =================================== */}
+            <div className="bgColorDark">
 
-                <section>
+                <section className="fourthArea">
+                    <div>
+                        <h1>BASIC® HELPS BRANDS ●CONNECT  <br /> W/ CULTURE</h1>
+                        <p>ADWEEK <span className="bold">(AGENCY SPOTLIGHT)</span></p>
+                        <button>About Us</button>
+                    </div>
+
+                    <video src="/img/video/Culture.mp4" controls autoPlay="autoplay"></video>
+                </section>
+
+                <section className="fifthArea">
                     <h3>FEATURED <br /> NEWS</h3>
                     <FeaturedNews />
                 </section>
-            </section>
-            <Footer />
+                <Footer />
+            </div>
+
         </div>
     )
 }

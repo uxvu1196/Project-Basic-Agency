@@ -1,0 +1,89 @@
+// @use "../abstracts/colors.scss" as c;
+
+@font-face {
+    font-family: scto-regular;
+    src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+    font-family: scto-medium;
+    src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+    font-family: scto-bold;
+    src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
+$sr: scto-regular;
+$sm: scto-medium;
+$sb: scto-bold;
+
+$bgLight: #f4f4f4;
+$bgDark: #252422;
+$bgRosa: #f9cdcd;
+/* 
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // width: 200%;
+    // height: 300px;
+    // overflow-y: auto;
+    // overflow-x: hidden;
+    padding: 0;
+
+    .index {
+        padding-right: 5%;
+    }
+
+    img {
+        width: 70%;
+        margin-bottom: 30%;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+        border-bottom: 1px solid black;
+    }
+
+    p {
+        font-family: $sb;
+    }
+} */
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0;
+    // font-size: 1rem;
+
+    .index {
+        margin: 0 80px 0 0;
+    }
+
+    img {
+        width: 50%;
+        margin-bottom: 105px;
+    }
+    h5 {
+        font-family: $sb;
+        font-size: 1rem;
+    }
+
+    .line {
+        content: "";
+        display: block;
+        width: 300px;
+        border-bottom: 1px solid black;
+        margin: 20px 0px;
+    }
+    .com_description {
+        font-family: $sb;
+        width: 350px;
+        margin-bottom: 10%;
+    }
+}

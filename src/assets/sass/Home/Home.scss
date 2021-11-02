@@ -1,0 +1,156 @@
+// @use "../abstracts/colors.scss" as c;
+
+@font-face {
+    font-family: scto-regular;
+    src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+    font-family: scto-medium;
+    src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+    font-family: scto-bold;
+    src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
+$sr: scto-regular;
+$sm: scto-medium;
+$sb: scto-bold;
+
+$bgLight: #f4f4f4;
+$bgDark: #252422;
+$bgRosa: #f9cdcd;
+
+.bgColorLight {
+    background-color: #f4f4f4;
+    padding: 3% 5%;
+
+    .firstArea {
+        .whatsNext {
+            font-family: $sb;
+            font-size: 5.2rem;
+        }
+
+        .here {
+            @extend .whatsNext;
+            text-align: right;
+        }
+
+        video {
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 15px;
+
+            border-bottom: 1px solid $bgDark;
+        }
+
+        p {
+            font-family: $sm;
+            font-size: 0.85rem;
+            padding-top: 9px;
+            padding-bottom: 3.5%;
+        }
+    }
+
+    // ------------------ END OF FIRST AREA ------
+
+    .secondArea {
+        display: flex;
+
+        p {
+            font-family: $sb;
+            font-size: 2rem;
+            width: 50%;
+            padding-right: 30%;
+        }
+        img {
+            width: 20%;
+        }
+    }
+
+    button {
+        font-family: $sb;
+        font-size: 0.7rem;
+        padding: 6px 35px;
+        border-radius: 50px;
+        margin-top: 3%;
+        margin-bottom: 15%;
+    }
+
+    button:hover {
+        background-color: $bgDark;
+        color: white;
+    }
+    // ------------------ END OF FIRST AREA ------
+
+    .thirdArea {
+        border-top: 1px solid $bgDark;
+        h3 {
+            font-family: $sb;
+            font-size: 2.5rem;
+            margin-top: 15%;
+            margin-bottom: 10%;
+        }
+    }
+}
+
+// ================== DARK AREA ======================
+
+.bgColorDark {
+    background-color: $bgDark;
+    color: $bgRosa;
+
+    .fourthArea {
+        display: flex;
+        padding: 10% 5% 0 5%;
+        margin-bottom: 10%;
+
+        div {
+            h1 {
+                font-family: $sb;
+                font-size: 5rem;
+                width: 90%;
+                line-height: 5rem;
+            }
+
+            p {
+                font-family: $sr;
+                padding-top: 3.5%;
+                font-size: 1rem;
+
+                .bold {
+                    font-family: $sb;
+                }
+            }
+
+            button {
+                font-family: $sb;
+                font-size: 0.8rem;
+                padding: 7px 30px;
+                border-radius: 50px;
+                border: 1.5px solid $bgRosa;
+                margin-top: 10%;
+                margin-bottom: 15%;
+                background: $bgDark;
+                color: $bgRosa;
+            }
+        }
+
+        video {
+            width: 80vw;
+            height: 80vh;
+        }
+    }
+
+    .fifthArea {
+        padding: 3% 5%;
+        h3 {
+            font-family: $sb;
+            font-size: 2.5rem;
+            margin-bottom: 5%;
+            // border-bottom:;
+        }
+    }
+}

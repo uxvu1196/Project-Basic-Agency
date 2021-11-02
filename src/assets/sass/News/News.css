@@ -1,0 +1,54 @@
+@font-face {
+  font-family: scto-regular;
+  src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+  font-family: scto-medium;
+  src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+  font-family: scto-bold;
+  src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
+.News .news_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-top: 1px solid #f9cdcd;
+  padding: 10px 0 35px;
+}
+
+.News .news_container .News_image {
+  height: 40vh;
+  padding-right: 15px;
+}
+
+.News .news_container .news_title {
+  font-family: scto-medium;
+  width: 50%;
+  font-size: 8em;
+}
+
+.News .news_container .News_description {
+  font-family: scto-medium;
+  padding-top: 70px;
+  font-size: 10px;
+  font-size: 4rem;
+}
+
+.News .news_container .News_description span {
+  margin-left: 10px;
+}
+
+.News .news_container .arrows {
+  width: 2.5%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+/*# sourceMappingURL=News.css.map */
