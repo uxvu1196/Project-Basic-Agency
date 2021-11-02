@@ -11,9 +11,9 @@ export const FeaturedNews = () => {
                     <img src={`/img${News.image}`} alt="News image" className="News_image" />
 
                     <div>
-                        <h5 clssName="news_title">{News.title}</h5>
+                        <h5 className="news_title">{News.title}</h5>
                         <p className="News_description">{News.info}
-                            <span>{News.date}</span></p>
+                            <span className="sr">{News.date}</span></p>
                     </div>
 
                     <img src={`/img/svg${News.arrow}`} alt="Arrows of companies" className="arrows" />

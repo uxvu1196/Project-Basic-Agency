@@ -1,0 +1,87 @@
+@font-face {
+  font-family: scto-regular;
+  src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+  font-family: scto-medium;
+  src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+  font-family: scto-bold;
+  src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
+.Footer_upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5% 0 5% 5%;
+  color: #f4f4f4;
+}
+
+.Footer_upper .leftArea img {
+  width: 20%;
+  padding-bottom: 80%;
+}
+
+.Footer_upper .leftArea h6 {
+  font-family: scto-regular;
+  font-size: 1rem;
+  padding-bottom: 5%;
+}
+
+.Footer_upper .leftArea p {
+  font-family: scto-medium;
+  font-size: 1.2rem;
+}
+
+.Footer_upper .leftArea input {
+  background-color: #252422;
+  width: 335%;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+.Footer_upper .rightArea {
+  margin-left: 40%;
+}
+
+.Footer_upper .rightArea h4 {
+  font-family: scto-regular;
+  font-size: 1.7em;
+  width: 80%;
+  padding-bottom: 20%;
+}
+
+.Footer_upper .rightArea h4 a {
+  text-decoration: underline;
+  color: #f4f4f4;
+}
+
+.Footer_upper .rightArea .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Footer_upper .rightArea .contact .contact_info {
+  padding-right: 12%;
+}
+
+.Footer_upper .rightArea .contact .contact_info .contact_header {
+  font-family: scto-regular;
+  font-size: 1.3rem;
+  padding-bottom: 15%;
+}
+/*# sourceMappingURL=Footer.css.map */

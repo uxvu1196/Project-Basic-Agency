@@ -29,32 +29,32 @@ $bgRosa: #f9cdcd;
         justify-content: space-evenly;
 
         border-top: 1px solid #f9cdcd;
-        padding: 10px 0 35px;
+        padding: 20px 0 40px;
 
         .News_image {
-            height: 40vh;
-            padding-right: 15px;
+            height: 35vh;
+            padding-right: 2%;
         }
 
         .news_title {
-            font-family: $sm;
-            width: 50%;
-            font-size: 8em;
+            font-family: $sr;
+            width: 75%;
+            font-size: 2.3em;
         }
 
         .News_description {
             font-family: $sm;
-            padding-top: 70px;
-            font-size: 10px;
-            font-size: 4rem;
+            padding-top: 15%;
+            font-size: 1rem;
 
-            span {
+            .sr {
+                font-family: $sr;
                 margin-left: 10px;
             }
         }
 
         .arrows {
-            width: 2.5%;
+            width: 3%;
             align-self: flex-start;
         }
     }

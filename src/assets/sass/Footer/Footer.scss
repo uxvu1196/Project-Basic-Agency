@@ -1,0 +1,89 @@
+// @use "../abstracts/colors.scss" as c;
+
+@font-face {
+    font-family: scto-regular;
+    src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+    font-family: scto-medium;
+    src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+    font-family: scto-bold;
+    src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
+$sr: scto-regular;
+$sm: scto-medium;
+$sb: scto-bold;
+
+$bgLight: #f4f4f4;
+$bgDark: #252422;
+$bgRosa: #f9cdcd;
+
+.Footer_upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0 5% 5%;
+    color: $bgLight;
+
+    .leftArea {
+        img {
+            width: 20%;
+            padding-bottom: 80%;
+        }
+
+        h6 {
+            font-family: $sr;
+            font-size: 1rem;
+            // padding-top: 30%;
+            padding-bottom: 5%;
+        }
+
+        p {
+            font-family: $sm;
+            font-size: 1.2rem;
+        }
+
+        input {
+            background-color: $bgDark;
+            width: 335%;
+            border-top-style: none;
+            border-right-style: none;
+            border-left-style: none;
+        }
+    }
+
+    .rightArea {
+        margin-left: 40%;
+        h4 {
+            font-family: $sr;
+            font-size: 1.7em;
+            width: 80%;
+            // padding-top: 10%;
+            padding-bottom: 20%;
+
+            a {
+                text-decoration: underline;
+                color: $bgLight;
+            }
+        }
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+
+            .contact_info {
+                padding-right: 12%;
+
+                .contact_header {
+                    font-family: $sr;
+                    font-size: 1.3rem;
+                    padding-bottom: 15%;
+                }
+            }
+        }
+    }
+}

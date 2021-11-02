@@ -21,33 +21,33 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   border-top: 1px solid #f9cdcd;
-  padding: 10px 0 35px;
+  padding: 20px 0 40px;
 }
 
 .News .news_container .News_image {
-  height: 40vh;
-  padding-right: 15px;
+  height: 35vh;
+  padding-right: 2%;
 }
 
 .News .news_container .news_title {
-  font-family: scto-medium;
-  width: 50%;
-  font-size: 8em;
+  font-family: scto-regular;
+  width: 75%;
+  font-size: 2.3em;
 }
 
 .News .news_container .News_description {
   font-family: scto-medium;
-  padding-top: 70px;
-  font-size: 10px;
-  font-size: 4rem;
+  padding-top: 15%;
+  font-size: 1rem;
 }
 
-.News .news_container .News_description span {
+.News .news_container .News_description .sr {
+  font-family: scto-regular;
   margin-left: 10px;
 }
 
 .News .news_container .arrows {
-  width: 2.5%;
+  width: 3%;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }

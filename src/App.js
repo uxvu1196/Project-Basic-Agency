@@ -4,6 +4,7 @@ import {
 } from "react-router-dom";
 import { Home } from './pages/Home';
 import { Work } from './pages/Work';
+import { Thinking } from './pages/Thinking';
 
 function App() {
   return (
@@ -17,9 +18,11 @@ function App() {
           <Work />
         </Route>
 
-        {/* <Route path="">
-          <Users />
+        <Route path="/Thinking">
+          <Thinking />
         </Route>
+
+        {/* 
 
         <Route path="">
           < />
