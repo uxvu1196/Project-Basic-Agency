@@ -84,4 +84,25 @@
   font-size: 1.3rem;
   padding-bottom: 15%;
 }
+
+.footer_below {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 96%;
+  padding: 1.5% 2%;
+  background-color: #22201b;
+}
+
+.footer_below p {
+  font-family: scto-regular;
+  font-size: 0.7rem;
+  color: grey;
+}
 /*# sourceMappingURL=Footer.css.map */

@@ -5,6 +5,7 @@ import {
 import { Home } from './pages/Home';
 import { Work } from './pages/Work';
 import { Thinking } from './pages/Thinking';
+import { Contact } from './pages/Contact';
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
 
         <Route path="/Thinking">
           <Thinking />
+        </Route>
+
+        <Route path="/Contact">
+          <Contact />
         </Route>
 
         {/* 

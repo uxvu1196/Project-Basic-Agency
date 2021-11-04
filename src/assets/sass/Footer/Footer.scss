@@ -87,3 +87,19 @@ $bgRosa: #f9cdcd;
         }
     }
 }
+
+.footer_below {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+
+    padding: 1.5% 2%;
+    background-color: rgb(34, 32, 27);
+
+    p {
+        font-family: $sr;
+        font-size: 0.7rem;
+        color: grey;
+    }
+}

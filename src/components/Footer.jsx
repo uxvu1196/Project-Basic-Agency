@@ -45,17 +45,13 @@ export const Footer = () => {
                         </ul>
                     </div>
                 </div>
-
             </div>
 
-
-            {/* 
             <div className="footer_below">
                 <p> BASIC®  INC 10 - 20©</p>
                 <p>EASY TO UNDERSTAND  IMPOSSIBLE TO IGNORE.™</p>
                 <p>TERMS  PRIVACY POLICY</p>
-            </div> */}
-
+            </div>
         </section>
     )
 }
