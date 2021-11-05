@@ -125,6 +125,11 @@
   color: #f9cdcd;
 }
 
+.bgColorDark .fourthArea div button:hover {
+  background-color: #f9cdcd;
+  color: #252422;
+}
+
 .bgColorDark .fourthArea video {
   width: 80vw;
   height: 80vh;

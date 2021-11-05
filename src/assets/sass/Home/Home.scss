@@ -136,6 +136,11 @@ $bgRosa: #f9cdcd;
                 background: $bgDark;
                 color: $bgRosa;
             }
+
+            button:hover {
+                background-color: $bgRosa;
+                color: $bgDark;
+            }
         }
 
         video {

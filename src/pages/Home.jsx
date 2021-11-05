@@ -40,7 +40,7 @@ export const Home = () => {
                     <div>
                         <h1>BASIC® HELPS BRANDS ●CONNECT  <br /> W/ CULTURE</h1>
                         <p>ADWEEK <span className="bold">(AGENCY SPOTLIGHT)</span></p>
-                        <button>About Us</button>
+                        <button>ABOUT US</button>
                     </div>
 
                     <video src="/img/video/Culture.mp4" controls autoPlay="autoplay"></video>

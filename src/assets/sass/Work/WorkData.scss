@@ -1,0 +1,97 @@
+// @use "../abstracts/colors.scss" as c;
+
+@font-face {
+    font-family: scto-regular;
+    src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+    font-family: scto-medium;
+    src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+    font-family: scto-bold;
+    src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
+$sr: scto-regular;
+$sm: scto-medium;
+$sb: scto-bold;
+
+$bgLight: #f4f4f4;
+$bgDark: #252422;
+$bgRosa: #f9cdcd;
+
+.WorkMainArea {
+    .WorkMain {
+        .WorkBox {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1.3px solid $bgDark;
+            padding: 10px;
+            #BoxLeft {
+                position: relative;
+                // border-right: 1.3px solid $bgDark; STYLENNNNNNNNN!!!
+
+                .WorkDate {
+                    position: absolute;
+                    top: -50%;
+                    font-family: $sm;
+                    font-size: 1rem;
+                    background-color: lightgray;
+                }
+                .WorkTitle {
+                    font-family: $sm;
+                    width: 50%;
+                    padding-bottom: 15px;
+                    font-size: 2em;
+                }
+                .WorkInfo {
+                    font-family: $sr;
+                    font-size: 1rem;
+                    padding-bottom: 20px;
+                    width: 88%;
+                }
+            }
+            button {
+                font-family: $sb;
+                font-size: 0.7rem;
+                padding: 6px 30px;
+                border-radius: 50px;
+                margin-top: 3%;
+                margin-bottom: 15%;
+                background-color: transparent;
+            }
+            button:hover {
+                background-color: black;
+                color: #fff;
+            }
+
+            #BoxRight {
+                display: grid;
+                grid-template-columns: 2fr 2fr;
+                gap: 20px;
+
+                .BrandImg {
+                    width: 28vw;
+                }
+                .BrandTitle {
+                    font-family: $sb;
+                    font-size: 1.4rem;
+                    padding-top: 3%;
+                    padding-bottom: 6%;
+                }
+                .BrandInfo {
+                    font-family: $sm;
+                    font-size: 0.8rem;
+                    font-weight: 500;
+
+                    padding-bottom: 20px;
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
