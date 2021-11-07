@@ -24,7 +24,7 @@ $bgDark: #252422;
 $bgRosa: #f9cdcd;
 
 .bgColorLight {
-    background-color: #f4f4f4;
+    background-color: $bgLight;
     padding: 3% 5%;
 
     .firstArea {

@@ -1,0 +1,17 @@
+[
+    {
+        "image": "/img/SD.jpg",
+        "name": "SAN DIEGO (HQ)",
+        "number": "01 /03"
+    },
+    {
+        "image": "/img/mtv.jpg",
+        "name": "BAY AREA",
+        "number": "02 /03"
+    },
+    {
+        "image": "/img/Stl.jpg",
+        "name": "ST. LOUIS",
+        "number": "03 /03"
+    }
+]

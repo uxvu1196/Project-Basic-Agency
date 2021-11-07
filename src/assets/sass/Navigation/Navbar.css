@@ -24,6 +24,7 @@ Nav {
       -ms-flex-align: baseline;
           align-items: baseline;
   padding-bottom: 8%;
+  padding: 3% 5%;
 }
 
 Nav .Logo {
@@ -54,6 +55,18 @@ Nav ul li {
 Nav ul li .link {
   color: #252422;
   font-family: scto-medium;
+}
+
+Nav ul li .link:focus {
+  border-bottom: 3px solid black;
+}
+
+Nav ul li .link:hover {
+  border-bottom: 3px solid black;
+}
+
+Nav ul li .link:active {
+  background-color: red;
 }
 
 Nav .Dots {

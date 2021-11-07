@@ -25,22 +25,24 @@ $bgRosa: #f9cdcd;
 
 .WorkMainArea {
     .WorkMain {
+        padding: 3% 4%;
         .WorkBox {
             display: flex;
             justify-content: space-between;
             align-items: center;
             border-top: 1.3px solid $bgDark;
-            padding: 10px;
+
+            padding-top: 2%;
             #BoxLeft {
                 position: relative;
-                // border-right: 1.3px solid $bgDark; STYLENNNNNNNNN!!!
+                border-right: 1.3px solid $bgDark;
 
                 .WorkDate {
                     position: absolute;
-                    top: -50%;
+                    top: -45%;
                     font-family: $sm;
                     font-size: 1rem;
-                    background-color: lightgray;
+                    // background-color: lightgray;
                 }
                 .WorkTitle {
                     font-family: $sm;

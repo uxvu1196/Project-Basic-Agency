@@ -13,6 +13,10 @@
   src: url(../../fonts/SctoGroteskA-Bold.woff2);
 }
 
+.WorkMainArea .WorkMain {
+  padding: 3% 4%;
+}
+
 .WorkMainArea .WorkMain .WorkBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,19 +28,19 @@
       -ms-flex-align: center;
           align-items: center;
   border-top: 1.3px solid #252422;
-  padding: 10px;
+  padding-top: 2%;
 }
 
 .WorkMainArea .WorkMain .WorkBox #BoxLeft {
   position: relative;
+  border-right: 1.3px solid #252422;
 }
 
 .WorkMainArea .WorkMain .WorkBox #BoxLeft .WorkDate {
   position: absolute;
-  top: -50%;
+  top: -45%;
   font-family: scto-medium;
   font-size: 1rem;
-  background-color: lightgray;
 }
 
 .WorkMainArea .WorkMain .WorkBox #BoxLeft .WorkTitle {

@@ -18,11 +18,10 @@ const WorkMain = () => {
                             {work.btn}
                         </button>
                     </div>
+
                     {/*UND-BEDINGUNG: && wenn das Image bei JSON existiert dann nimm den Image-Tag */}
                     <div id="BoxRight">
-
                         {/* ================= LEFT IMG7VIDEO AREA =================== */}
-
                         <figure>
                             {work.brandimages[0].image &&
                                 <img src={work.brandimages[0].image} alt="Pictures of Brand and Companies" className="BrandImg" />

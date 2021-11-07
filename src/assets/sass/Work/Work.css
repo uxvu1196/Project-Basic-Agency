@@ -13,7 +13,20 @@
   src: url(../../fonts/SctoGroteskA-Bold.woff2);
 }
 
-.bgColorDark {
-  background-color: #252422;
+.firstAreaWork {
+  padding: 3% 5%;
+}
+
+.firstAreaWork h2 {
+  font-family: scto-bold;
+  font-size: 5rem;
+  width: 40%;
+}
+
+.firstAreaWork p {
+  font-family: scto-medium;
+  width: 30%;
+  margin-left: auto;
+  margin-right: 0;
 }
 /*# sourceMappingURL=Work.css.map */

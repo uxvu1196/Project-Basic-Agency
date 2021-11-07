@@ -24,11 +24,12 @@ $bgDark: #252422;
 $bgRosa: #f9cdcd;
 
 Nav {
-    // background-color: $bgLight;
+    background-color: $bgLight;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     padding-bottom: 8%;
+    padding: 3% 5%;
 
     .Logo {
         width: 8%;
@@ -48,6 +49,13 @@ Nav {
             .link {
                 color: $bgDark;
                 font-family: $sm;
+            }
+            .link:focus {
+                border-bottom: 3px solid black;
+            }
+
+            .link:hover {
+                border-bottom: 3px solid black;
             }
         }
     }

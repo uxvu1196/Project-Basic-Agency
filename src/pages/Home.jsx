@@ -11,9 +11,8 @@ import "../App.scss"
 export const Home = () => {
     return (
         <div>
+            <Navbar />
             <div className="bgColorLight">
-                <Navbar />
-
                 <section className="firstArea">
                     <h2 className="whatsNext">WHAT’S NEXT <br /> STARTS</h2>
                     <h2 className="here">●HERE</h2>

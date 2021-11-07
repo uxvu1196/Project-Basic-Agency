@@ -1,0 +1,83 @@
+// @use "../abstracts/colors" as c;
+
+@font-face {
+    font-family: scto-regular;
+    src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+    font-family: scto-medium;
+    src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+    font-family: scto-bold;
+    src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
+$sr: scto-regular;
+$sm: scto-medium;
+$sb: scto-bold;
+
+$bgLight: #f4f4f4;
+$bgDark: #252422;
+$bgRosa: #f9cdcd;
+
+.ContactArea {
+    display: flex;
+    background-color: $bgLight;
+    padding: 3% 5%;
+
+    .leftAreaContact {
+        img {
+            width: 45vw;
+            height: 93vh;
+        }
+    }
+
+    .rightAreaContact {
+        h1 {
+            font-family: $sb;
+            font-size: 5rem;
+            padding-top: 20%;
+            padding-left: 5%;
+            // padding-bottom: 10%;
+        }
+
+        .easy {
+            font-family: $sm;
+            font-size: 0.6rem;
+            width: 35%;
+            padding: 3%;
+            padding-left: 5%;
+        }
+        .contactMails {
+            display: flex;
+            padding-top: 25%;
+            padding-left: 5%;
+
+            h2 {
+                font-size: 4.5rem;
+            }
+
+            .contactGrid {
+                display: grid;
+                grid-template-columns: repeat(2, 200px);
+
+                margin-left: 30%;
+                // background-color: magenta;
+
+                h5 {
+                    font-family: $sb;
+                    font-size: 1.2rem;
+                }
+                #email {
+                    font-family: $sm;
+                    padding-top: 10%;
+                    padding-bottom: 20%;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
