@@ -53,9 +53,9 @@ export const Contact = () => {
                 <div className="OfficeArea">
                     <div>
                         <ul className="OfficeHeader">
-                            <li>SEC.</li>
-                            <li>/A</li>
-                            <li>●</li>
+                            <li className="li1">SEC.</li>
+                            <li className="li2">/A</li>
+                            <li className="li3">●</li>
                         </ul>
                     </div>
 
@@ -91,18 +91,55 @@ export const Contact = () => {
                         </div>
 
                         <div className="Header3">
-                            <h3>ST. LOUIS</h3>
+                            <h3>ST.LOUIS</h3>
                         </div>
                     </div>
                 </div>
+                {/* ====================== END OF OFFICE AREA============================== */}
 
+                {/* ======================== FOLLOW ============================ */}
+
+                <div className="FollowArea">
+                    <div>
+                        <ul className="FollowHeader">
+                            <li className="li1">SEC.</li>
+                            <li className="li2">/B</li>
+                            <li className="li3">●</li>
+                        </ul>
+                    </div>
+
+                    <section className="Follow">
+                        <div className="li1">
+                            <h2>FOLLOW</h2>
+                        </div>
+
+                        <div>
+                            <ul className="contact_info">
+                                <h3 className="contact_header">⚪️Social</h3>
+                                <li>Instagram </li>
+                                <li>Twitter</li>
+                                <li>Linkedin</li>
+                                <li>Facebook</li>
+                            </ul>
+                        </div>
+
+                        <div className="xy">
+                            <h6>⚪️ STAY IN THE KNOW</h6>
+                            <p>Email Address</p>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                    </section>
+
+
+
+
+                </div>
+
+                {/* ====================== !!!!!FOOTER DARK AREA!!!!! ============================== */}
             </div>
-
-            {/* ====================== !!!!!FOOTER DARK AREA!!!!! ============================== */}
             <div className="bgColorDark">
                 <Footer />
             </div>
-
         </div>
     )
 }

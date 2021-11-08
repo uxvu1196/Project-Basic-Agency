@@ -91,10 +91,20 @@ $bgRosa: #f9cdcd;
     .OfficeArea {
         border-top: 1px solid $bgDark;
         padding-top: 1%;
+        margin-bottom: 8%;
 
         .OfficeHeader {
             display: flex;
-            justify-content: space-between;
+            font-family: $sr;
+            .li1 {
+                font-size: 0.8rem;
+                padding-right: 30%;
+            }
+            .li2 {
+                font-size: 0.8rem;
+                padding-right: 65%;
+            }
+            // justify-content: space-between;
         }
         .OfficeGrid {
             padding-top: 5%;
@@ -182,16 +192,33 @@ $bgRosa: #f9cdcd;
             }
         }
     }
+    // ======================= END OF OFFICE AREA ============================
+
+    .FollowHeader {
+        // @extend .officeheader; FUNKTIONIERT NICHT / @EXTEND DOES NOT WORK
+        display: flex;
+        font-family: $sr;
+        border-top: 1px solid $bgDark;
+        padding-top: 1%;
+        .li1 {
+            font-size: 0.8rem;
+            padding-right: 30%;
+        }
+        .li2 {
+            font-size: 0.8rem;
+            padding-right: 65%;
+        }
+    }
+
+    .Follow {
+        display: flex;
+
+        .li {
+            padding-right: 30%;
+
+            h2 {
+                font-family: $sm;
+            }
+        }
+    }
 }
-
-/* 
-THIS WOULD BE THE STYLE FOR OFFICES IF I DON'T USE THE OFFICES COMPONENT
-
-.Office { grid-area: Office; }
-.Office1 { grid-area: Office1; }
-.Office2 { grid-area: Office2; }
-.Office3 { grid-area: Office3; }
-.Header { grid-area: Header; }
-.Header1 { grid-area: Header1; }
-.Header2 { grid-area: Header2; }
- */

@@ -82,15 +82,24 @@
 .bgColorLightWork .OfficeArea {
   border-top: 1px solid #252422;
   padding-top: 1%;
+  margin-bottom: 8%;
 }
 
 .bgColorLightWork .OfficeArea .OfficeHeader {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  font-family: scto-regular;
+}
+
+.bgColorLightWork .OfficeArea .OfficeHeader .li1 {
+  font-size: 0.8rem;
+  padding-right: 30%;
+}
+
+.bgColorLightWork .OfficeArea .OfficeHeader .li2 {
+  font-size: 0.8rem;
+  padding-right: 65%;
 }
 
 .bgColorLightWork .OfficeArea .OfficeGrid {
@@ -197,15 +206,36 @@
   padding-left: 85%;
 }
 
-/* 
-THIS WOULD BE THE STYLE FOR OFFICES IF I DON'T USE THE OFFICES COMPONENT
+.bgColorLightWork .FollowHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: scto-regular;
+  border-top: 1px solid #252422;
+  padding-top: 1%;
+}
 
-.Office { grid-area: Office; }
-.Office1 { grid-area: Office1; }
-.Office2 { grid-area: Office2; }
-.Office3 { grid-area: Office3; }
-.Header { grid-area: Header; }
-.Header1 { grid-area: Header1; }
-.Header2 { grid-area: Header2; }
- */
+.bgColorLightWork .FollowHeader .li1 {
+  font-size: 0.8rem;
+  padding-right: 30%;
+}
+
+.bgColorLightWork .FollowHeader .li2 {
+  font-size: 0.8rem;
+  padding-right: 65%;
+}
+
+.bgColorLightWork .Follow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bgColorLightWork .Follow .li {
+  padding-right: 30%;
+}
+
+.bgColorLightWork .Follow .li h2 {
+  font-family: scto-medium;
+}
 /*# sourceMappingURL=Contact.css.map */

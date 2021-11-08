@@ -1,23 +1,37 @@
 [
     {
-        "image": "/Adweek.jpg",
+        "image": "/img/news1.jpg",
+        "title": "CRAFTED® EMERGES AS A WINNER OF COMMUNICATION ARTS’ 26TH INTERACTIVE ANNUAL",
+        "text": "AWARDS",
+        "date": "02.25.20",
+        "arrow": "/img/arrow-black.svg"
+    },
+    {
+        "image": "/img/news2.jpg",
+        "title": "AWWWARDS NOMINATES BASIC® FOR AGENCY OF THE YEAR AND TWO OTHER HONORS",
+        "text": "AWARDS",
+        "date": "01.10.20",
+        "arrow": "/img/arrow-black.svg"
+    },
+    {
+        "image": "/img/news3.jpg",
+        "title": "THE WEBBY AWARDS SELECT BASIC® TO RETHINK THE FUTURE OF THEIR BRAND AND DIGITAL PLATFORM",
+        "text": "WORK",
+        "date": "12.13.19",
+        "arrow": "/img/arrow-black.svg"
+    },
+    {
+        "image": "/img/Adweek.jpg",
         "title": "BASIC® Deemed One of the World’s Fastest Growing Agencies by Adweek",
-        "info": "PRESS ",
+        "text": "Press",
         "date": "09.25.19",
-        "arrow": "/arrow.svg"
+        "arrow": "/img/arrow-black.svg"
     },
     {
-        "image": "/brand.jpg",
-        "title": "The Webby Awards Select BASIC® to Rethink the Future of Their Brand and Digital Platform",
-        "info": "WORK ",
+        "image": "/img/Furrion-Partnership.jpg",
+        "title": "BASIC® and Furrion partner to launch all new eCommerce website built for a D2C future",
+        "text": "WORK",
         "date": "08.29.19",
-        "arrow": "/arrow.svg"
-    },
-    {
-        "image": "/Furrion-Partnership.jpg",
-        "title": "The Webby Awards Select BASIC® to Rethink the Future of Their Brand and Digital Platform",
-        "info": "WORK ",
-        "date": "08.29.19",
-        "arrow": "/arrow.svg"
+        "arrow": "/img/arrow-black.svg"
     }
 ]

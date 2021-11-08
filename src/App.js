@@ -6,6 +6,7 @@ import { Home } from './pages/Home';
 import { Work } from './pages/Work';
 import { Thinking } from './pages/Thinking';
 import { Contact } from './pages/Contact';
+import { News } from './pages/News';
 
 function App() {
   return (
@@ -27,11 +28,9 @@ function App() {
           <Contact />
         </Route>
 
-        {/* 
-
-        <Route path="">
-          < />
-        </Route> */}
+        <Route path="/News">
+          <News />
+        </Route>
       </Switch>
     </Router>
   );

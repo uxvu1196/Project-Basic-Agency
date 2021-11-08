@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeNews from "./data/News.json"
+import HomeNews from "./data/HomeNews.json"
 import "../assets/sass/News/News.scss"
 
 export const FeaturedNews = () => {
