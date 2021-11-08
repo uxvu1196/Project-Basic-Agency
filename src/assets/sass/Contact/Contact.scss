@@ -96,37 +96,89 @@ $bgRosa: #f9cdcd;
             display: flex;
             justify-content: space-between;
         }
-
         .OfficeGrid {
+            padding-top: 5%;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
             gap: 0px 0px;
+            // grid-auto-flow: row;
             grid-template-areas:
                 "OfficeLeft Office1 Header1"
                 "OfficeLeft Office2 Header2"
                 "OfficeLeft Office3 Header3";
 
-            .Office {
-                grid-area: Office;
+            .OfficeLeft {
+                display: grid;
+                grid-template-columns: 1fr 1.8fr 0.17fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                gap: 0px 0px;
+                grid-template-areas:
+                    ". . line"
+                    ". . line"
+                    ". . line";
+                grid-area: OfficeLeft;
+
+                //grid-area: OfficeLeft;
+                // background-color: blue;
+                // border-right: 1.5px solid black;
+            }
+            .line {
+                grid-area: line;
+                // background-color: palevioletred;
+                border-left: 1.5px solid black;
             }
             .Office1 {
                 grid-area: Office1;
+                // background-color: red;
+                border-bottom: 1.5px solid black;
             }
             .Office2 {
                 grid-area: Office2;
+                // background-color: orange;
+                border-bottom: 1.5px solid black;
+                padding-top: 22px;
             }
             .Office3 {
                 grid-area: Office3;
-            }
-            .Header {
-                grid-area: Header1;
+                border-bottom: 1.5px solid black;
+                padding-top: 22px;
             }
             .Header1 {
-                grid-area: Header2;
+                grid-area: Header1;
+                // background-color: paleturquoise;
+                border-bottom: 1.5px solid black;
             }
             .Header2 {
+                grid-area: Header2;
+                border-bottom: 1.5px solid black;
+                padding-top: 22px;
+            }
+            .Header3 {
                 grid-area: Header3;
+                border-bottom: 1.5px solid black;
+                padding-top: 22px;
+            }
+
+            h2 {
+                font-family: $sb;
+            }
+            img {
+                width: 100%;
+            }
+            h3 {
+                font-family: $sb;
+                padding-left: 5%;
+            }
+
+            p {
+                font-family: $sb;
+                font-size: 1.1rem;
+                padding: 16px 0;
+            }
+
+            span {
+                padding-left: 85%;
             }
         }
     }

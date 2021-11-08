@@ -63,7 +63,8 @@ export const Contact = () => {
 
                     <div className="OfficeGrid">
                         <div className="OfficeLeft">
-                            <h2>Offices</h2>
+                            <h2>OFFICES</h2>
+                            <div className="line"></div>
                         </div>
 
                         <div className="Office1">
@@ -82,15 +83,15 @@ export const Contact = () => {
                         </div>
 
                         <div className="Header1">
-                            <h2>SAN DIEGO (HQ)</h2>
+                            <h3>SAN DIEGO (HQ)</h3>
                         </div>
 
                         <div className="Header2">
-                            <h2>BAY AREA</h2>
+                            <h3>BAY AREA</h3>
                         </div>
 
                         <div className="Header3">
-                            <h2>ST. LOUIS</h2>
+                            <h3>ST. LOUIS</h3>
                         </div>
                     </div>
                 </div>

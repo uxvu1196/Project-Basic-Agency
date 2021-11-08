@@ -94,6 +94,7 @@
 }
 
 .bgColorLightWork .OfficeArea .OfficeGrid {
+  padding-top: 5%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -104,44 +105,96 @@
       grid-template-areas: "OfficeLeft Office1 Header1" "OfficeLeft Office2 Header2" "OfficeLeft Office3 Header3";
 }
 
-.bgColorLightWork .OfficeArea .OfficeGrid .Office {
-  grid-area: Office;
+.bgColorLightWork .OfficeArea .OfficeGrid .OfficeLeft {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1.8fr 0.17fr;
+      grid-template-columns: 1fr 1.8fr 0.17fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+      grid-template-areas: ". . line" ". . line" ". . line";
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: OfficeLeft;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid .line {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  grid-area: line;
+  border-left: 1.5px solid black;
 }
 
 .bgColorLightWork .OfficeArea .OfficeGrid .Office1 {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: Office1;
+  border-bottom: 1.5px solid black;
 }
 
 .bgColorLightWork .OfficeArea .OfficeGrid .Office2 {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: Office2;
+  border-bottom: 1.5px solid black;
+  padding-top: 22px;
 }
 
 .bgColorLightWork .OfficeArea .OfficeGrid .Office3 {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: Office3;
-}
-
-.bgColorLightWork .OfficeArea .OfficeGrid .Header {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: Header1;
+  border-bottom: 1.5px solid black;
+  padding-top: 22px;
 }
 
 .bgColorLightWork .OfficeArea .OfficeGrid .Header1 {
-  -ms-grid-row: 2;
+  -ms-grid-row: 1;
   -ms-grid-column: 3;
-  grid-area: Header2;
+  grid-area: Header1;
+  border-bottom: 1.5px solid black;
 }
 
 .bgColorLightWork .OfficeArea .OfficeGrid .Header2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: Header2;
+  border-bottom: 1.5px solid black;
+  padding-top: 22px;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid .Header3 {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: Header3;
+  border-bottom: 1.5px solid black;
+  padding-top: 22px;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid h2 {
+  font-family: scto-bold;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid img {
+  width: 100%;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid h3 {
+  font-family: scto-bold;
+  padding-left: 5%;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid p {
+  font-family: scto-bold;
+  font-size: 1.1rem;
+  padding: 16px 0;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid span {
+  padding-left: 85%;
 }
 
 /* 
