@@ -14,6 +14,7 @@
 }
 
 Nav {
+  background-color: #f4f4f4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,10 +64,6 @@ Nav ul li .link:focus {
 
 Nav ul li .link:hover {
   border-bottom: 3px solid black;
-}
-
-Nav ul li .link:active {
-  background-color: red;
 }
 
 Nav .Dots {

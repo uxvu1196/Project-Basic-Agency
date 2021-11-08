@@ -1,0 +1,158 @@
+@font-face {
+  font-family: scto-regular;
+  src: url(../../fonts/SctoGroteskA-Regular.woff2);
+}
+
+@font-face {
+  font-family: scto-medium;
+  src: url(../../fonts/SctoGroteskA-Medium.woff2);
+}
+
+@font-face {
+  font-family: scto-bold;
+  src: url(../../fonts/SctoGroteskA-Bold.woff2);
+}
+
+.bgColorLightWork {
+  padding: 3% 5%;
+  background-color: #f4f4f4;
+}
+
+.bgColorLightWork .ContactArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15%;
+}
+
+.bgColorLightWork .ContactArea .leftAreaContact img {
+  width: 45vw;
+  height: 93vh;
+}
+
+.bgColorLightWork .ContactArea .rightAreaContact h1 {
+  font-family: scto-bold;
+  font-size: 5rem;
+  padding-top: 20%;
+  padding-left: 5%;
+}
+
+.bgColorLightWork .ContactArea .rightAreaContact .easy {
+  font-family: scto-medium;
+  font-size: 0.6rem;
+  width: 35%;
+  padding: 3%;
+  padding-left: 5%;
+}
+
+.bgColorLightWork .ContactArea .rightAreaContact .contactMails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 15%;
+  padding-left: 5%;
+}
+
+.bgColorLightWork .ContactArea .rightAreaContact .contactMails h2 {
+  font-size: 4.5rem;
+}
+
+.bgColorLightWork .ContactArea .rightAreaContact .contactMails .contactGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (200px)[2];
+      grid-template-columns: repeat(2, 200px);
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.bgColorLightWork .ContactArea .rightAreaContact .contactMails .contactGrid h5 {
+  font-family: scto-bold;
+  font-size: 1.2rem;
+}
+
+.bgColorLightWork .ContactArea .rightAreaContact .contactMails .contactGrid #email {
+  font-family: scto-medium;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.bgColorLightWork .OfficeArea {
+  border-top: 1px solid #252422;
+  padding-top: 1%;
+}
+
+.bgColorLightWork .OfficeArea .OfficeHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+      grid-template-areas: "OfficeLeft Office1 Header1" "OfficeLeft Office2 Header2" "OfficeLeft Office3 Header3";
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid .Office {
+  grid-area: Office;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid .Office1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Office1;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid .Office2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: Office2;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid .Office3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: Office3;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid .Header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: Header1;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid .Header1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: Header2;
+}
+
+.bgColorLightWork .OfficeArea .OfficeGrid .Header2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: Header3;
+}
+
+/* 
+THIS WOULD BE THE STYLE FOR OFFICES IF I DON'T USE THE OFFICES COMPONENT
+
+.Office { grid-area: Office; }
+.Office1 { grid-area: Office1; }
+.Office2 { grid-area: Office2; }
+.Office3 { grid-area: Office3; }
+.Header { grid-area: Header; }
+.Header1 { grid-area: Header1; }
+.Header2 { grid-area: Header2; }
+ */
+/*# sourceMappingURL=Contact.css.map */

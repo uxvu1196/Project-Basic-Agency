@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AACI,MADE,CACF,WAAW,CAAC;EACR,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "Offices.scss"
+    ],
+    "names": [],
+    "file": "Offices.css"
+}

@@ -23,61 +23,123 @@ $bgLight: #f4f4f4;
 $bgDark: #252422;
 $bgRosa: #f9cdcd;
 
-.ContactArea {
-    display: flex;
-    background-color: $bgLight;
+.bgColorLightWork {
     padding: 3% 5%;
-
-    .leftAreaContact {
-        img {
-            width: 45vw;
-            height: 93vh;
+    background-color: $bgLight;
+    // ===================================================
+    .ContactArea {
+        display: flex;
+        padding-bottom: 15%;
+        // ======================= LEFT AREA ============================
+        .leftAreaContact {
+            img {
+                width: 45vw;
+                height: 93vh;
+            }
         }
-    }
+        // ======================= RIGHT AREA ============================
 
-    .rightAreaContact {
-        h1 {
-            font-family: $sb;
-            font-size: 5rem;
-            padding-top: 20%;
-            padding-left: 5%;
-            // padding-bottom: 10%;
-        }
-
-        .easy {
-            font-family: $sm;
-            font-size: 0.6rem;
-            width: 35%;
-            padding: 3%;
-            padding-left: 5%;
-        }
-        .contactMails {
-            display: flex;
-            padding-top: 25%;
-            padding-left: 5%;
-
-            h2 {
-                font-size: 4.5rem;
+        .rightAreaContact {
+            h1 {
+                font-family: $sb;
+                font-size: 5rem;
+                padding-top: 20%;
+                padding-left: 5%;
+                // padding-bottom: 10%;
             }
 
-            .contactGrid {
-                display: grid;
-                grid-template-columns: repeat(2, 200px);
+            .easy {
+                font-family: $sm;
+                font-size: 0.6rem;
+                width: 35%;
+                padding: 3%;
+                padding-left: 5%;
+            }
 
-                margin-left: 30%;
-                // background-color: magenta;
+            .contactMails {
+                display: flex;
+                padding-top: 15%;
+                padding-left: 5%;
+                h2 {
+                    font-size: 4.5rem;
+                }
+                .contactGrid {
+                    display: grid;
+                    grid-template-columns: repeat(2, 200px);
+                    margin-top: 10%;
 
-                h5 {
-                    font-family: $sb;
-                    font-size: 1.2rem;
+                    margin-left: 30%;
+                    // background-color: magenta;
+
+                    h5 {
+                        font-family: $sb;
+                        font-size: 1.2rem;
+                    }
+                    #email {
+                        font-family: $sm;
+                        padding-top: 10%;
+                        padding-bottom: 20%;
+                        font-size: 1rem;
+                        text-decoration: underline;
+                    }
                 }
-                #email {
-                    font-family: $sm;
-                    padding-top: 10%;
-                    padding-bottom: 20%;
-                    font-size: 1rem;
-                }
+            }
+        }
+    }
+    // ======================= END OF CONTACT AREA ============================
+
+    .OfficeArea {
+        border-top: 1px solid $bgDark;
+        padding-top: 1%;
+
+        .OfficeHeader {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .OfficeGrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 0px 0px;
+            grid-template-areas:
+                "OfficeLeft Office1 Header1"
+                "OfficeLeft Office2 Header2"
+                "OfficeLeft Office3 Header3";
+
+            .Office {
+                grid-area: Office;
+            }
+            .Office1 {
+                grid-area: Office1;
+            }
+            .Office2 {
+                grid-area: Office2;
+            }
+            .Office3 {
+                grid-area: Office3;
+            }
+            .Header {
+                grid-area: Header1;
+            }
+            .Header1 {
+                grid-area: Header2;
+            }
+            .Header2 {
+                grid-area: Header3;
             }
         }
     }
 }
+
+/* 
+THIS WOULD BE THE STYLE FOR OFFICES IF I DON'T USE THE OFFICES COMPONENT
+
+.Office { grid-area: Office; }
+.Office1 { grid-area: Office1; }
+.Office2 { grid-area: Office2; }
+.Office3 { grid-area: Office3; }
+.Header { grid-area: Header; }
+.Header1 { grid-area: Header1; }
+.Header2 { grid-area: Header2; }
+ */
