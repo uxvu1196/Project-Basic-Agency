@@ -68,17 +68,17 @@ export const Contact = () => {
                         </div>
 
                         <div className="Office1">
-                            <img src="/img/SD.jpg" alt="Office Picture" />
+                            <img src="/img/SD.jpg" alt="Office" />
                             <p>01 <span className="toRight">/03</span></p>
                         </div>
 
                         <div className="Office2">
-                            <img src="/img/mtv.jpg" alt="Office Picture" />
+                            <img src="/img/mtv.jpg" alt="Office" />
                             <p>02 <span className="toRight">/03</span></p>
                         </div>
 
                         <div className="Office3">
-                            <img src="/img/Stl.jpg" alt="Office Picture" />
+                            <img src="/img/Stl.jpg" alt="Office" />
                             <p>03 <span className="toRight">/03</span></p>
                         </div>
 

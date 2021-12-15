@@ -10,7 +10,7 @@ export const FeaturedNews = () => {
 
 
                 <article className="news_container">
-                    <img src={`/img${News.image}`} alt="News image" className="News_image" />
+                    <img src={`/img${News.image}`} alt="News" className="News_image" />
                     <div>
                         <h5 className="news_title">{News.title}</h5>
                         <p className="News_description">{News.info}

@@ -1,6 +1,6 @@
 import './App.scss';
 import {
-  BrowserRouter as Router, Switch, Route, Link
+  BrowserRouter as Router, Switch, Route
 } from "react-router-dom";
 import { Home } from './pages/Home';
 import { Work } from './pages/Work';
@@ -24,7 +24,7 @@ function App() {
           <Thinking />
         </Route>
 
-        <Route path="/Contact">
+        <Route path="/contact">
           <Contact />
         </Route>
 

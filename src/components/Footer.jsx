@@ -16,7 +16,7 @@ export const Footer = () => {
 
 
                 <div className="rightArea">
-                    <h4>We collaborate with ambitious brands and people. <a href="#">Let’s connect :)</a></h4>
+                    <h4>We collaborate with ambitious brands and people. <a href="/contact">Let’s connect :)</a></h4>
 
                     <div className="contact">
 
